@@ -12,7 +12,7 @@ It writes each secret the stack's services read, such as passwords, signing keys
 ./generate-secrets.sh
 ```
 
-It writes `.env` and the certificate beside the script, so it runs from the hosting stack's directory.
+It writes `.env` and `certs/` next to the script, so the script lives in the hosting stack's directory.
 
 ## Licence
 
